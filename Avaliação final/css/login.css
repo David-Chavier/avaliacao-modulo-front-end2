@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    background: url(../arquivos/bg.jpg) fixed no-repeat ;
+    background-size: cover;
+}
+h2{
+    font-size: 28px;
+}
+.user-box{
+    margin-top: 18px;
+    margin-bottom: 2px;
+}
+#buttonSubmit{
+    background-color: #E5C7C6;
+    border-radius: 8px;
+    width: 300px;
+    height: 35px;
+    font-size: large;
+    text-align: center;
+    border: none;
+}
+#buttonSubmit:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.boxStyle{
+    border-radius: 8px;
+    width: 300px;
+    height: 35px;
+    font-size: large;
+    text-align: center;
+}
+img{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    animation: imgPrincipal 3s forwards;
+    animation-delay: 1s;
+    
+}
+
+
+@keyframes imgPrincipal{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;    
+    }
+}
